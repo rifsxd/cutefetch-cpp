@@ -4,7 +4,9 @@ Cutefetch++ is a little fetch utility completely made in the C++ programming lan
 which aims to be simple and to show a little cute bunny & others[WIP] in your terminal as well as
 relevant information about your current running system.
 
-![banner](./assets/banner.png)
+![banner](./assets/banner_1.png)
+![banner](./assets/banner_2.png)
+![banner](./assets/banner_3.png)
 
 ## Features
 
