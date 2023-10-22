@@ -1,7 +1,7 @@
-# Cutefetch
+# Cutefetch-cpp
 
-Cutefetch is a little fetch utility completely made in the C programming language
-which aims to be simple and to show a little cute bunny in your terminal as well as
+Cutefetch++ is a little fetch utility completely made in the C++ programming language
+which aims to be simple and to show a little cute bunny & others[WIP] in your terminal as well as
 relevant information about your current running system.
 
 ![banner](./assets/banner.png)
@@ -9,13 +9,14 @@ relevant information about your current running system.
 ## Features
 
 - Header
-- Bunny banner
+- Bunny banner & others[WIP]
 - Os name
 - Kernel version
-- Current used ram (Todo: Show the total ram)
+- Current used ram
 - Hostname
 - Disk: Used disk space / Total disk space
 - Color palette
+- More coming soon![WIP]
 
 ## Requirements
 
@@ -27,27 +28,17 @@ relevant information about your current running system.
 - your hostname at /etc/hostname (you may already have that file there)
 - A nerd font (to correctly render the glyphs at the color palette)
 
-## Installation
-
-In an arch system you can build it by using your preferred aur helper such as yay per example
-
-```sh
-yay -S cutefetch
-```
-
-> Another package managers are still WIP, contributions 4 packaging and others are welcome aswell :)
-
 ## Manual building
 
 Run a little list of shell script commands.
 
 ```sh
 mkdir -pv ~/repo && cd ~/repo
-git clone https://github.com/AlphaTechnolog/cutefetch.git && cd cutefetch
+git clone https://github.com/rifsxd/cutefetch-cpp.git && cd cutefetch-cpp
 sudo make install
 ```
 
-Then just run in your terminal `cutefetch`, and you'll see the cute bunny appearing
+Then just run in your terminal `cutefetch-cpp`, and you'll see the cute bunny appearing
 in your terminal screen :)
 
 ## Compilation tricks
@@ -81,5 +72,5 @@ make clean all
 
 ## Enjoy
 
-Thanks for reading me! Enjoy with cutefetch, also if you liked this little project
+Thanks for reading me! Enjoy with cutefetch++, also if you liked this little project
 please give me a star on this repo, that will support me and my work at GitHub :)
