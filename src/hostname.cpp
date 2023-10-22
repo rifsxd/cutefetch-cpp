@@ -16,6 +16,6 @@ std::string get_hostname() {
 
 void hostname() {
     std::string host = get_hostname();
-    std::cout << " " << CYAN << "hs" << RESET << "  " << host << std::endl;
+    std::cout << " " << CYAN << "hs" << RESET << " " << host << std::endl;
 }
 

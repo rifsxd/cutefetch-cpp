@@ -78,10 +78,17 @@ void prbannerrow(int r) {
             std::cout << RED << str[i] << RESET;
         } else if (str[i] == '=') {
             std::cout << YELLOW << str[i] << RESET;
+        } else if (str[i] == '(' || str[i] == ')') {
+            std::cout << BLUE << str[i] << RESET;
+        } else if (str[i] == '/') {
+            std::cout << GREEN << str[i] << RESET;
+        } else if (str[i] == '_') {
+            std::cout << CYAN << str[i] << RESET;
+        } else if (str[i] == '.') {
+            std::cout << MAGENTA << str[i] << RESET;
         } else {
             std::cout << str[i];
         }
     }
 }
-
 

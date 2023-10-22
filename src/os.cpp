@@ -32,6 +32,6 @@ std::string get_pretty_name() {
 
 void os() {
     std::string osname = get_pretty_name();
-    std::cout << "   " << GREEN << "os" << RESET << "   " << osname << std::endl;
+    std::cout << " " << GREEN << "os" << RESET << " " << osname << std::endl;
 }
 
