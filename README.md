@@ -7,6 +7,7 @@ relevant information about your current running system.
 ![banner](./assets/banner_1.png)
 ![banner](./assets/banner_2.png)
 ![banner](./assets/banner_3.png)
+![banner](./assets/banner_4.png)
 
 ## Features
 
